@@ -1,0 +1,43 @@
+@media(max-width: 1200px){
+    #our_qualities .quality_individual {min-height: 380px;}
+}
+
+@media(max-width: 991px){
+    header .main_header .header_menu .menu_list .menu_items {margin-right: 30px;}
+    header .main_header .social_icons .social_icons_individual a .fab {margin-left: 15px;}
+    #com_products .products_main .prod_individual {margin-bottom: 30px;}
+    footer .footer_logo img{width: 100%;}
+    footer .footer_menu ul.footer_menu_list li {margin-left: 35px;}
+    #our_qualities .quality_individual {height: 100%}
+}
+
+@media(max-width: 767px){
+    header .main_header .header_menu .menu_list {display: flex; justify-content: center;}
+    header .main_header .social_icons{margin: auto; margin-top: 20px;}
+    header .main_header .header_menu .menu_list .menu_items {margin: 0 20px;}
+    header .main_header .main_site_info .main_logo img{width: 100%;}
+    #about_company {text-align: center;}
+    #about_company .about_com_info .about_com_ttl h2 {font-size: 30px; line-height: 40px; margin-top: 40px;}
+    #about_company .about_com_info .about_com_dtls p {font-size: 20px;}
+    .sec_ttl h2 {font: bold 30px/40px 'Playfair Display';}
+    #our_qualities {padding: 90px 0;}
+    #our_qualities .quality_individual {min-height: auto; margin-bottom: 20px;}
+    #our_qualities .col-md-4{margin-bottom: 25px;}
+    #stories {padding: 0px 0 50px; text-align: center;}
+    #stories .stories_main .sec_ttl {text-align: center;}
+    #com_products {padding: 50px 0 70px;}
+    footer{text-align: center;}
+    footer .footer_menu{margin-top: 20px;}
+    footer .footer_menu ul.footer_menu_list li{margin: 0 15px;}
+    footer .footer_menu ul.footer_menu_list {display: block;}
+    footer .footer_menu ul.footer_menu_list li a {font: bold 16px/40px 'Playfair Display';}
+    footer .footer_menu ul.footer_menu_list{margin: auto !important;}
+}
+
+@media(max-width: 375px){
+    header .main_header .header_menu .menu_list .menu_items a{font-size: 12px;}
+    header .main_header .header_menu .menu_list .menu_items {margin: 0 14px;}
+    header .main_header .social_icons .social_ttl p{font-size: 12px; margin-top: 0px;}
+    header .main_header .social_icons .social_icons_individual a .fab {font-size: 16px;}
+    
+}

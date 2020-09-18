@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+header {
+  padding: 48px 0 98px;
+  position: relative;
+  background: url(../images/bG.png) center no-repeat;
+  background-size: cover;
+}
+
+header .main_header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 90px;
+  border-left: 1px solid #f4bf00;
+}
+
+header .main_header .header_menu .menu_list {
+  margin-bottom: 0;
+}
+
+header .main_header .header_menu .menu_list .menu_items {
+  list-style: none;
+  display: inline;
+  margin-right: 72px;
+}
+
+header .main_header .header_menu .menu_list .menu_items a {
+  color: #f4bf00;
+  text-transform: uppercase;
+  font: bold 14px/17px 'Lato';
+  text-decoration: none;
+}
+
+header .main_header .header_menu .menu_list .menu_items a:hover {
+  color: #ffd12c;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+header .main_header .social_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+}
+
+header .main_header .social_icons .social_ttl p {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fffaf0;
+  margin-right: 18px;
+}
+
+header .main_header .social_icons .social_icons_individual a .fab {
+  color: #fffaf0;
+  margin-left: 20px;
+}
+
+header .main_header .main_site_info {
+  text-align: center;
+}
+
+header .main_header .main_site_info .main_logo {
+  margin-top: 110px;
+}
+
+header .main_header .main_site_info .main_headline {
+  margin-top: 78px;
+}
+
+header .main_header .main_site_info .main_headline h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fffaf0;
+}
+
+header .main_header .main_site_info .play_icon {
+  margin-top: 20px;
+}
+
+#about_company {
+  padding: 49px 0 15px;
+  background-color: #0c140e;
+  margin-top: -1px;
+}
+
+#about_company .about_com_info .about_com_ttl h2 {
+  color: #fffaf0;
+  font-size: 50px;
+  line-height: 67px;
+  font-weight: 700;
+}
+
+#about_company .about_com_info .about_com_dtls {
+  margin-top: 50px;
+}
+
+#about_company .about_com_info .about_com_dtls p {
+  color: #fffaf0;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.primary_btn {
+  margin-top: 70px;
+}
+
+.primary_btn a {
+  text-transform: uppercase;
+  color: #f4bf00;
+  font: bold 16px/19px 'Lato';
+  letter-spacing: 4px;
+  border: 1px solid #f4bf00;
+  padding: 20px 35px;
+}
+
+.sec_ttl {
+  text-align: center;
+}
+
+.sec_ttl h2 {
+  color: #fffaf0;
+  font: bold 50px/67px 'Playfair Display';
+}
+
+#our_qualities {
+  padding: 200px 0;
+  margin-top: -2px;
+  background: url(../images/Group40.png) no-repeat center;
+  background-size: cover;
+}
+
+#our_qualities .quality_individual {
+  border: 1px solid #ebe7d6;
+  padding: 55px 30px 20px;
+  position: relative;
+  min-height: 350px;
+}
+
+#our_qualities .quality_individual .each_ttl h3 {
+  color: #fffaf0;
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+#our_qualities .quality_individual .each_info p {
+  font: normal 16px/29px 'Lato';
+  color: #fffaf0;
+}
+
+#our_qualities .quality_individual .right_arrow {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+#stories {
+  background-color: #0c140e;
+  padding: 150px 0;
+}
+
+#stories .stories_main .sec_ttl {
+  text-align: left;
+}
+
+#stories .stories_main .stories_howto {
+  margin-top: 50px;
+}
+
+#stories .stories_main .stories_howto ul {
+  list-style: square inside url("../images/Path70.png");
+}
+
+#stories .stories_main .stories_howto ul li {
+  margin-bottom: 5px;
+}
+
+#stories .stories_main .stories_howto ul li span {
+  padding-left: 6px;
+  color: #fffaf0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#com_products {
+  padding: 120px 0 150px;
+  background: url(../images/Overlay.png) no-repeat center;
+  background-size: cover;
+}
+
+#com_products .products_main {
+  margin-top: 60px;
+}
+
+#com_products .products_main .prod_individual {
+  text-align: center;
+}
+
+#com_products .products_main .prod_individual .prod_img {
+  background-color: rgba(235, 231, 214, 0.1);
+  padding: 20px;
+}
+
+#com_products .products_main .prod_individual .prod_dtl {
+  margin-top: 30px;
+}
+
+#com_products .products_main .prod_individual .prod_dtl h3.ttl {
+  color: #fffaf0;
+  font: bold 20px/27px 'Playfair Display';
+}
+
+#com_products .products_main .prod_individual .prod_dtl p.old {
+  color: #fffaf0;
+  font: normal 16px/26px 'Lato';
+  margin: 10px 0;
+}
+
+#com_products .products_main .prod_individual .prod_dtl p.price {
+  color: #fffaf0;
+  font: normal 16px/26px 'Lato';
+}
+
+#com_products .products_main .prod_individual .prod_dtl p.price span.old_price {
+  text-decoration: line-through;
+  margin-right: 15px;
+}
+
+#com_products .primary_btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 70px auto 0;
+}
+
+footer {
+  padding: 55px 0;
+  background-color: #0c140e;
+}
+
+footer .footer_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+footer .footer_menu ul.footer_menu_list {
+  display: table;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+footer .footer_menu ul.footer_menu_list li {
+  display: inline;
+  list-style: none;
+  margin-left: 80px;
+}
+
+footer .footer_menu ul.footer_menu_list li a {
+  font: bold 16px/21px 'Playfair Display';
+  color: #fffaf0;
+  text-decoration: none;
+}
+
+footer .footer_menu ul.footer_menu_list li a:hover {
+  color: #a1a1a1;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+/*# sourceMappingURL=style.css.map */
