@@ -16,7 +16,7 @@
     header .main_header .social_icons{margin: auto; margin-top: 20px;}
     header .main_header .header_menu .menu_list .menu_items {margin: 0 20px;}
     header .main_header .main_site_info .main_logo img{width: 100%;}
-    #about_company {text-align: center;}
+    #about_company {text-align: center; margin-top: -2px;}
     #about_company .about_com_info .about_com_ttl h2 {font-size: 30px; line-height: 40px; margin-top: 40px;}
     #about_company .about_com_info .about_com_dtls p {font-size: 20px;}
     .sec_ttl h2 {font: bold 30px/40px 'Playfair Display';}
